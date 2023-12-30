@@ -6,7 +6,7 @@ let ctx = canvas.getContext("2d");
 let winWidth = window.innerWidth;
 let winHeight = window.innerHeight;
 
-//Set Canvas and Background Color;
+//Set Canvas Background Color;
 canvas.width = winWidth;
 canvas.height = winHeight;
 ctx.fillStyle = "#000";
