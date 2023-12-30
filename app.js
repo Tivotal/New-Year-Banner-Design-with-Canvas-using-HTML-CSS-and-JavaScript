@@ -14,7 +14,7 @@ ctx.fillRect(0, 0, winWidth, winHeight);
 
 //Glow effect;
 ctx.shadowBlur = 10;
-ctx.shadowColor = "white";
+ctx.shadowColor = "#fff";
 
 function animate() {
   //Random position and size of stars;
@@ -28,7 +28,6 @@ function animate() {
   ctx.arc(x, y, r, 0, Math.PI * 2);
   ctx.fill();
 
-  //Using setTimeout instead of window.requestAnimationFrame for slower speed... window.requestAnimationFrame is approximately equal to setTimeout(func, 17);
   setTimeout(animate, 100);
 }
 
